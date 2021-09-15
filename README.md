@@ -1,0 +1,7 @@
+# Description
+
+REST has been the standard when developing APIs for many years now, but REST APIs can be difficult to design to serve multiple clients effectively. Each client has their own needs in terms of the data they need, but a traditional REST API provides only a single version of an entity. The result might include extra fields the client does not need, or lack fields it does, in which case the client has to navigate through various endpoints making multiple requests to build the desired data.
+
+To overcome the limitations of REST, as an internal solution for their mobile apps, Facebook developed the GraphQL specification in 2012. Since being open-sourced in 2015, GraphQL has been employed by countless organizations like GitHub, Airbnb, PayPal and Twitter, and more and more companies are adopting it each year. By providing a query language for your APIs and a runtime for fulfilling queries with your data, GraphQL presents a clear alternative to REST and ad-hoc web service architectures.
+
+GraphQL solves the problem of over-fetching and under-fetching data by enabling the client to specify the exact fields it needs and subsequently, receive only those particular fields. This is accomplished by featuring a mandatory strongly typed schema that acts as a contract between the client and the server. Another major advantage over REST is the possibility of having multiple queries executed in a single request, thus improving performance considerably.
